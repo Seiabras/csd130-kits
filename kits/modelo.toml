@@ -1,0 +1,51 @@
+# Modelo de kit da CSD130. Copiar para kits/<nome>.toml e preencher.
+# Limites (manual, págs. 19 e 20): som 1 a 250 (ver dados/sons.tsv), volume 0 a 32, pan -8 a +8,
+# afinação -2 a +2. O user vai de 1 a 10.
+
+nome = "Nome do kit"
+descricao = "Para que serve este kit, em uma frase."
+user = 1
+reverb = false
+referencias = ["Música 1 (artista)", "Música 2 (artista)"]
+
+[pads.kick]
+som = 1
+volume = 28
+
+[pads.caixa]
+som = 37
+volume = 28
+
+[pads.tom1]
+som = 95
+volume = 26
+pan = -3
+
+[pads.tom2]
+som = 98
+volume = 26
+pan = 0
+
+[pads.tom3]
+som = 103
+volume = 26
+pan = 3
+
+[pads.chimbal]
+som = 60
+volume = 24
+pan = -4
+
+[pads.ataque]
+som = 118
+volume = 24
+pan = -5
+
+[pads.conducao]
+som = 135
+volume = 24
+pan = 5
+
+[computador]
+kit = "DRSKit 2.1 (DrumGizmo)"
+notas = "Mapa de notas em docs/mapa-de-notas.md."

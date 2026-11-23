@@ -1,0 +1,209 @@
+numero	grupo	nome	nota_gm
+1	kick	KICK1	36
+2	kick	KICK2	
+3	kick	KICK3	
+4	kick	JAZZBD2	
+5	kick	LTBD1	
+6	kick	POPKICK1	
+7	kick	POPKICK2	
+8	kick	POPKICK3	
+9	kick	POPKICK4	
+10	kick	POPKICK5	
+11	kick	POPKICK6	
+12	kick	POPKICK7	
+13	kick	ACKICK	35
+14	kick	SYNBD02	
+15	kick	EKICK05	
+16	kick	NOISEBD	
+17	kick	EKICK01	
+18	kick	EKICK02	
+19	acoustic snare	BRSHSN1	
+20	acoustic snare	FNKSN1	
+21	acoustic snare	FNKSN2	
+22	acoustic snare	POPSN1	
+23	acoustic snare	HRDBT1	
+24	acoustic snare	JZSLP1	
+25	acoustic snare	JZSLP2	
+26	acoustic snare	ORCHSN3	
+27	acoustic snare	SDSTK3	
+28	acoustic snare	SNRIM	
+29	acoustic snare	HVSN	
+30	acoustic snare	TITESN1	
+31	acoustic snare	TITESN2	
+32	acoustic snare	TITESN3	
+33	acoustic snare	POPSN2	
+34	acoustic snare	TITESN4	
+35	acoustic snare	TITESN5	
+36	acoustic snare	TRDSN1	
+37	acoustic snare	SNCOMBO3	38
+38	acoustic snare	SNCOMBO4	
+39	acoustic snare	SNCOMBO5	
+40	acoustic snare	SNCOMBO6	
+41	acoustic snare	SRSTD	37
+42	acoustic snare	SRIMC4	
+43	acoustic snare	POPSN1	
+44	acoustic snare	POPSN2	
+45	acoustic snare	POPSN3	
+46	acoustic snare	POPSN4	
+47	acoustic snare	POPSN5	
+48	acoustic snare	POPSN5	
+49	electric snare	SYNSN01	
+50	electric snare	ESN11	
+51	electric snare	ESN1	
+52	electric snare	ESN2	
+53	electric snare	ESN3	
+54	electric snare	ESN4	
+55	electric snare	ESN5	
+56	electric snare	ESN6	
+57	electric snare	ESN7	40
+58	hi-hat	CHH1	
+59	hi-hat	CHH2	
+60	hi-hat	CHH3	42
+61	hi-hat	CHH4	
+62	hi-hat	CHH5	
+63	hi-hat	CHH6	
+64	hi-hat	CHH7	
+65	hi-hat	CHH8	
+66	hi-hat	LOOSHH1	
+67	hi-hat	LOOSHH2	
+68	hi-hat	LOOSHH3	
+69	hi-hat	LOOSHH4	
+70	hi-hat	OHHSTD	46
+71	hi-hat	OHIHAT1	
+72	hi-hat	OHIHAT2	
+73	hi-hat	OHIHAT3	
+74	hi-hat	OHIHAT4	
+75	hi-hat	OHIHAT5	
+76	hi-hat	PHHJZ	
+77	hi-hat	PHH2	44
+78	hi-hat	PHH3	
+79	hi-hat	CHHPOP1	
+80	hi-hat	CHHPOP2	
+81	hi-hat	CHHPOP3	
+82	hi-hat	CHHPOP4	
+83	ehh	EHH01	
+84	ehh	EHH02	
+85	ehh	EHH03	
+86	ehh	EHH04	
+87	ehh	EHH05	
+88	ehh	EHH06	
+89	ehh	EHH07	
+90	tom	BRSHT1	
+91	tom	BRSHT2	
+92	tom	BRSHT3	
+93	tom	TOM1	45
+94	tom	TOM2	
+95	tom	TOM3	50
+96	tom	TOM4	
+97	tom	TOM5	
+98	tom	TOM6	48
+99	tom	TOM7	47
+100	tom	TOM8	43
+101	tom	TOM9	
+102	tom	TOMHSTD	
+103	tom	TOMMSTD	41
+104	tom	TOMPOP1	
+105	tom	TOMPOP2	
+106	tom	TOMPOP3	
+107	tom	TOMPOP4	
+108	tom	TOMPOP5	
+109	tom	TOMPOP6	
+110	tom	808T1	
+111	tom	808T2	
+112	tom	808T3	
+113	tom	ETOM05	
+114	cymbal	CRASH1	
+115	cymbal	CRASH9	
+116	cymbal	CRSHJS1	
+117	cymbal	CRSHJS2	
+118	cymbal	CRSHSTD1	49
+119	cymbal	CRSHSTD2	
+120	cymbal	LTCRSH1	57
+121	cymbal	LTCRSH2	
+122	cymbal	LTCRSH3	
+123	cymbal	ORCCYM1	
+124	cymbal	ORCCYM2	
+125	cymbal	ORCCYM3	
+126	cymbal	ORCCYM4	
+127	cymbal	RBLLSTD	53
+128	cymbal	RIDEBELL	
+129	cymbal	REVCYM1	
+130	cymbal	REVCYM2	
+131	cymbal	REVCYM3	
+132	cymbal	REVCYM4	
+133	cymbal	RIDEJZ1	
+134	cymbal	RIDEJZ2	
+135	cymbal	RIDESTD	51
+136	cymbal	RIDE1	59
+137	cymbal	RIDE2	
+138	cymbal	REVCYMBAL	
+139	cymbal	SPLSH1	55
+140	cymbal	SPLSH2	
+141	cymbal	CRASHC1	
+142	cymbal	CNCYMBAL	52
+143	cymbal	CRASHPOP1	
+144	cymbal	CRASHPOP2	
+145	cymbal	CRASHPOP3	
+146	cymbal	CRASHPOP4	
+147	cymbal	SPLASHC	
+148	cymbal	RIDELC2	
+149	cymbal	RIDEH1	
+150	cymbal	RIDEH2	
+151	cymbal	ECRASH1	
+152	cymbal	ECRASH2	
+153	cymbal	ECRASH3	
+154	cymbal	ECRASH4	
+155	cymbal	SPLASH	
+156	percussion	EMRCA1	
+157	percussion	EMTRI	
+158	percussion	ETRNGL1	
+159	percussion	ETRNGL2	
+160	percussion	EBELL1	
+161	percussion	ECBSA2	
+162	percussion	ETMBRIN1	
+163	percussion	ETMBRIN2	
+164	percussion	CABASA1	69
+165	percussion	CABASA2	
+166	percussion	CHKR01	
+167	percussion	CHKR02	
+168	percussion	CHKR03	
+169	percussion (lista GM)	CLAP1	39
+173	percussion (lista GM)	COWBLL1	56
+178	percussion (lista GM)	HAGOGO1	67
+181	percussion (lista GM)	HIBNGO01	60
+183	percussion (lista GM)	HTMBL1	65
+186	percussion (lista GM)	LOBNGO	61
+187	percussion (lista GM)	LOCNGA01	64
+189	percussion (lista GM)	MHCNGA	62
+190	percussion (lista GM)	MTRNGL	80
+191	percussion (lista GM)	OHCNGA01	63
+195	percussion (lista GM)	OPNTRNGL	81
+196	percussion (lista GM)	TMBRN1	54
+201	percussion (lista GM)	VSLP03	58
+212	percussion	TAIKO3	
+225	percussion (lista GM)	BELLTREE	84
+226	percussion (lista GM)	High Q	27
+227	percussion (lista GM)	SLAP	28
+228	percussion (lista GM)	SCRATCH PUSH	29
+229	percussion (lista GM)	SCRATCH PULL	30
+230	percussion (lista GM)	STICKS	31
+231	percussion (lista GM)	CLIP	32
+232	percussion (lista GM)	METRONOME CLICK	33
+233	percussion (lista GM)	METRONOME BELL	34
+234	percussion (lista GM)	SHAKER	82
+235	percussion (lista GM)	JINGLEBELL	83
+236	percussion (lista GM)	CASTANETS	85
+237	percussion (lista GM)	MUTESURDO	86
+238	percussion (lista GM)	OPNSURDO	87
+239	percussion (lista GM)	L0TMBL1	66
+240	percussion (lista GM)	LAGOGO1	68
+241	percussion (lista GM)	MRCAS1	70
+242	percussion (lista GM)	SWHSL1	71
+243	percussion (lista GM)	LWHSL1	72
+244	percussion (lista GM)	SGUIRO	73
+245	percussion (lista GM)	LGUIRO	74
+246	percussion (lista GM)	CLV	75
+247	percussion (lista GM)	HWBLK	76
+248	percussion (lista GM)	LWBLK	77
+249	percussion (lista GM)	MCUICA	78
+250	percussion (lista GM)	OCUICA	79

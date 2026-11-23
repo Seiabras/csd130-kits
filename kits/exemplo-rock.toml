@@ -1,0 +1,49 @@
+# Exemplo: rock com bumbo e caixa fortes, toms abertos e pratos brilhantes.
+# Ponto de partida para ajustar de ouvido; os sons foram escolhidos pelo nome, sem ouvir no módulo.
+
+nome = "Exemplo rock"
+descricao = "Rock de banda: bumbo seco, caixa cheia, pratos abertos."
+user = 10
+reverb = true
+referencias = []
+
+[pads.kick]
+som = 11      # POPKICK6
+volume = 30
+
+[pads.caixa]
+som = 23      # HRDBT1
+volume = 30
+
+[pads.tom1]
+som = 104     # TOMPOP1
+volume = 27
+pan = -3
+
+[pads.tom2]
+som = 106     # TOMPOP3
+volume = 27
+pan = 1
+
+[pads.tom3]
+som = 108     # TOMPOP5
+volume = 28
+pan = 4
+
+[pads.chimbal]
+som = 79      # CHHPOP1
+volume = 24
+pan = -4
+
+[pads.ataque]
+som = 143     # CRASHPOP1
+volume = 25
+pan = -5
+
+[pads.conducao]
+som = 136     # RIDE1
+volume = 23
+pan = 5
+
+[computador]
+kit = "DRSKit 2.1 (DrumGizmo)"
