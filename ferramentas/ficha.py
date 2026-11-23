@@ -35,7 +35,7 @@ LIMITES = {
     "afinacao": (-2, 2),
 }
 
-# O aro manda nota própria (37); se o módulo dá a ele um som próprio no kit, a conferir. Por isso é opcional.
+# O aro manda nota própria (37) e tem som próprio no kit (conferido em 23/11/2026); fica opcional para kits antigos.
 OPCIONAIS = {"aro"}
 
 USER_MAX = 10  # o manual diz 10 na pág. 20 e 15 na pág. 28; 10 é o seguro até conferir no módulo

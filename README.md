@@ -18,8 +18,7 @@ Teen Spirit, Sweater Weather, Do I Wanna Know? e Where Is My Mind?. O índice co
 [`fichas/README.md`](fichas/README.md). Os sons foram escolhidos pelo nome e pelo que se sabe de cada gravação, sem
 ouvir no módulo: são o ponto de partida para o ajuste de ouvido.
 
-O aro da caixa manda nota própria (37). Se o módulo dá a ele um som próprio no kit, ainda está a conferir: na ficha,
-ele aparece logo depois da caixa e, se o visor não mudar ao bater no aro, basta pular a linha.
+O aro da caixa manda nota própria (37) e tem som próprio em cada kit (conferido no visor em 23/11/2026).
 
 ## Como usar
 
