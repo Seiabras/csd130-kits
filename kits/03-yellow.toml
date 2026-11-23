@@ -1,0 +1,53 @@
+# Yellow (Coldplay, 2000). Sons escolhidos pelo nome e pelo que se sabe da gravação, sem ouvir no módulo:
+# ajustar de ouvido e anotar aqui o que mudou.
+
+nome = "Yellow"
+descricao = "Balada pop aberta: bumbo macio, caixa média, condução e ataque soando por cima."
+user = 3
+reverb = true
+referencias = ["Yellow (Coldplay, 2000)"]
+
+[pads.kick]
+som = 6      # POPKICK1
+volume = 28
+
+[pads.caixa]
+som = 22      # POPSN1
+volume = 26
+
+[pads.aro]
+som = 41      # SRSTD
+volume = 22
+
+[pads.tom1]
+som = 104      # TOMPOP1
+volume = 25
+pan = -2
+
+[pads.tom2]
+som = 105      # TOMPOP2
+volume = 25
+pan = 1
+
+[pads.tom3]
+som = 106      # TOMPOP3
+volume = 26
+pan = 4
+
+[pads.chimbal]
+som = 79      # CHHPOP1
+volume = 22
+pan = -4
+
+[pads.ataque]
+som = 143      # CRASHPOP1
+volume = 25
+pan = -5
+
+[pads.conducao]
+som = 137      # RIDE2
+volume = 24
+pan = 5
+
+[computador]
+kit = "DRSKit 2.1 (DrumGizmo)"

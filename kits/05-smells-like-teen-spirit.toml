@@ -1,0 +1,56 @@
+# Smells Like Teen Spirit (Nirvana, 1991). Sons escolhidos pelo nome e pelo que se sabe da gravação, sem ouvir no módulo:
+# ajustar de ouvido e anotar aqui o que mudou.
+
+nome = "Smells Like Teen Spirit"
+descricao = "Grunge alto: caixa forte e estalada, toms graves e grandes, ataque soando aberto no refrão."
+user = 5
+reverb = true
+referencias = ["Smells Like Teen Spirit (Nirvana, 1991)"]
+
+[pads.kick]
+som = 3      # KICK3
+volume = 31
+
+[pads.caixa]
+som = 23      # HRDBT1
+volume = 31
+
+[pads.aro]
+som = 41      # SRSTD
+volume = 22
+
+[pads.tom1]
+som = 102      # TOMHSTD
+volume = 28
+pan = -2
+afinacao = -1
+
+[pads.tom2]
+som = 103      # TOMMSTD
+volume = 28
+pan = 1
+afinacao = -1
+
+[pads.tom3]
+som = 103      # TOMMSTD
+volume = 29
+pan = 4
+afinacao = -2
+
+[pads.chimbal]
+som = 66      # LOOSHH1
+volume = 23
+pan = -4
+
+[pads.ataque]
+som = 119      # CRSHSTD2
+volume = 26
+pan = -5
+
+[pads.conducao]
+som = 135      # RIDESTD
+volume = 22
+pan = 5
+
+[computador]
+kit = "DRSKit 2.1 (DrumGizmo)"

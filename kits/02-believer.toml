@@ -1,0 +1,53 @@
+# Believer (Imagine Dragons, 2017). Sons escolhidos pelo nome e pelo que se sabe da gravação, sem ouvir no módulo:
+# ajustar de ouvido e anotar aqui o que mudou.
+
+nome = "Believer"
+descricao = "Batida de estádio, quase eletrônica: bumbo enorme, caixa com palma, toms 808 nas viradas."
+user = 2
+reverb = true
+referencias = ["Believer (Imagine Dragons, 2017)"]
+
+[pads.kick]
+som = 14      # SYNBD02
+volume = 32
+
+[pads.caixa]
+som = 49      # SYNSN01
+volume = 30
+
+[pads.aro]
+som = 169      # CLAP1
+volume = 28
+
+[pads.tom1]
+som = 112      # 808T3
+volume = 27
+pan = -2
+
+[pads.tom2]
+som = 111      # 808T2
+volume = 27
+pan = 1
+
+[pads.tom3]
+som = 110      # 808T1
+volume = 28
+pan = 4
+
+[pads.chimbal]
+som = 83      # EHH01
+volume = 20
+pan = -4
+
+[pads.ataque]
+som = 151      # ECRASH1
+volume = 24
+pan = -5
+
+[pads.conducao]
+som = 135      # RIDESTD
+volume = 20
+pan = 5
+
+[computador]
+kit = "DRSKit 2.1 (DrumGizmo)"

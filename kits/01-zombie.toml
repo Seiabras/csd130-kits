@@ -1,0 +1,56 @@
+# Zombie (The Cranberries, 1994). Sons escolhidos pelo nome e pelo que se sabe da gravação, sem ouvir no módulo:
+# ajustar de ouvido e anotar aqui o que mudou.
+
+nome = "Zombie"
+descricao = "Rock pesado e lento: caixa grande com sala, toms cheios na virada, pratos abertos no refrão."
+user = 1
+reverb = true
+referencias = ["Zombie (The Cranberries, 1994)"]
+
+[pads.kick]
+som = 1      # KICK1
+volume = 30
+
+[pads.caixa]
+som = 37      # SNCOMBO3
+volume = 30
+
+[pads.aro]
+som = 41      # SRSTD
+volume = 22
+
+[pads.tom1]
+som = 95      # TOM3
+volume = 27
+pan = -2
+afinacao = -1
+
+[pads.tom2]
+som = 98      # TOM6
+volume = 27
+pan = 1
+afinacao = -1
+
+[pads.tom3]
+som = 103      # TOMMSTD
+volume = 28
+pan = 4
+afinacao = -1
+
+[pads.chimbal]
+som = 60      # CHH3
+volume = 23
+pan = -4
+
+[pads.ataque]
+som = 118      # CRSHSTD1
+volume = 25
+pan = -5
+
+[pads.conducao]
+som = 135      # RIDESTD
+volume = 22
+pan = 5
+
+[computador]
+kit = "DRSKit 2.1 (DrumGizmo)"

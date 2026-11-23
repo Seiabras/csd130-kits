@@ -11,6 +11,16 @@ Cada kit é descrito uma vez, num arquivo `kits/*.toml`. Dele sai a ficha de dig
 botões, e a indicação do kit do computador. A CSD130 não aceita kit pelo USB (não tem System Exclusive), então a
 ficha é também a cópia de segurança: o reset de fábrica apaga todos os kits do usuário.
 
+## Os kits
+
+Oito kits, um por música, em USER01 a 08, na ordem da lista: Zombie, Believer, Yellow, Boys Don't Cry, Smells Like
+Teen Spirit, Sweater Weather, Do I Wanna Know? e Where Is My Mind?. O índice com as fichas está em
+[`fichas/README.md`](fichas/README.md). Os sons foram escolhidos pelo nome e pelo que se sabe de cada gravação, sem
+ouvir no módulo: são o ponto de partida para o ajuste de ouvido.
+
+O aro da caixa manda nota própria (37). Se o módulo dá a ele um som próprio no kit, ainda está a conferir: na ficha,
+ele aparece logo depois da caixa e, se o visor não mudar ao bater no aro, basta pular a linha.
+
 ## Como usar
 
 Montar a ficha de um kit:

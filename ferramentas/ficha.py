@@ -19,6 +19,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 PADS = [
     ("kick", "Bumbo (kick)"),
     ("caixa", "Caixa (snare)"),
+    ("aro", "Aro da caixa (rim)"),
     ("tom1", "Tom 1"),
     ("tom2", "Tom 2"),
     ("tom3", "Tom 3 (surdo)"),
@@ -33,6 +34,9 @@ LIMITES = {
     "pan": (-8, 8),
     "afinacao": (-2, 2),
 }
+
+# O aro manda nota própria (37); se o módulo dá a ele um som próprio no kit, a conferir. Por isso é opcional.
+OPCIONAIS = {"aro"}
 
 USER_MAX = 10  # o manual diz 10 na pág. 20 e 15 na pág. 28; 10 é o seguro até conferir no módulo
 
@@ -53,6 +57,8 @@ def validar(kit, arquivo):
     pads = kit.get("pads", {})
     for chave, _ in PADS:
         pad = pads.get(chave)
+        if pad is None and chave in OPCIONAIS:
+            continue
         if pad is None:
             erros.append(f"falta o pad [pads.{chave}]")
             continue
@@ -77,6 +83,7 @@ def ficha(arquivo):
     sons = carregar_sons()
     pads = kit["pads"]
     user = kit["user"]
+    presentes = [(c, n) for c, n in PADS if c in pads]
     linhas = [f"# Ficha: {kit.get('nome', Path(arquivo).stem)} (USER{user:02d})", ""]
     if kit.get("descricao"):
         linhas += [kit["descricao"], ""]
@@ -89,7 +96,7 @@ def ficha(arquivo):
         "| Pad | Som | Volume | Pan | Afinação |",
         "|---|---|---|---|---|",
     ]
-    for chave, nome in PADS:
+    for chave, nome in presentes:
         p = pads[chave]
         som = f"{p['som']:03d} {sons.get(p['som'], '(nome a conferir)')}"
         linhas.append(
@@ -104,13 +111,13 @@ def ficha(arquivo):
         "pisca).",
         "2. **VOICE VOL/PAN/TUN** uma vez (som). Para cada pad: bater nele e acertar com **−DATA+**:",
     ]
-    linhas += [f"   - {nome}: **{pads[c]['som']:03d}**" for c, nome in PADS]
+    linhas += [f"   - {nome}: **{pads[c]['som']:03d}**" for c, nome in presentes]
     linhas.append("3. **VOICE VOL/PAN/TUN** de novo (aparece L, volume). Bater e acertar:")
-    linhas += [f"   - {nome}: **{pads[c]['volume']}**" for c, nome in PADS]
+    linhas += [f"   - {nome}: **{pads[c]['volume']}**" for c, nome in presentes]
     linhas.append("4. **VOICE VOL/PAN/TUN** de novo (aparece P, pan). Bater e acertar:")
-    linhas += [f"   - {nome}: **{sinal(pads[c].get('pan', 0))}**" for c, nome in PADS]
+    linhas += [f"   - {nome}: **{sinal(pads[c].get('pan', 0))}**" for c, nome in presentes]
     linhas.append("5. **VOICE VOL/PAN/TUN** de novo (aparece t, afinação). Bater e acertar:")
-    linhas += [f"   - {nome}: **{sinal(pads[c].get('afinacao', 0))}**" for c, nome in PADS]
+    linhas += [f"   - {nome}: **{sinal(pads[c].get('afinacao', 0))}**" for c, nome in presentes]
     linhas += [
         "6. **SAVE** para gravar (o número para de piscar). Trocar de kit ou faltar luz antes deste passo perde tudo.",
         f"7. Reverb **{'ligado' if kit.get('reverb', False) else 'desligado'}**: **KIT REV ON/OFF** até o reverb e "
@@ -129,12 +136,30 @@ def ficha(arquivo):
 
 def main():
     if sys.argv[1:] == ["--todas"]:
+        indice = [
+            "# Fichas",
+            "",
+            "Uma ficha por kit, geradas por `ferramentas/ficha.py --todas` a partir de `kits/`. Não editar à mão.",
+            "",
+            "| USER | Kit | Reverb | Ficha |",
+            "|---|---|---|---|",
+        ]
+        usados = {}
         for arquivo in sorted((RAIZ / "kits").glob("*.toml")):
             if arquivo.stem == "modelo":
                 continue
+            kit = tomllib.loads(arquivo.read_text())
+            if kit.get("user") in usados:
+                sys.exit(f"{arquivo.name} e {usados[kit['user']]} usam o mesmo USER{kit['user']:02d}")
+            usados[kit.get("user")] = arquivo.name
             destino = RAIZ / "fichas" / f"{arquivo.stem}.md"
             destino.write_text(ficha(arquivo))
+            indice.append(
+                f"| {kit['user']:02d} | {kit.get('nome', arquivo.stem)} | {'sim' if kit.get('reverb') else 'não'} "
+                f"| [{destino.name}]({destino.name}) |"
+            )
             print(f"{destino.relative_to(RAIZ)}")
+        (RAIZ / "fichas" / "README.md").write_text("\n".join(indice) + "\n")
     elif len(sys.argv) == 2:
         print(ficha(sys.argv[1]))
     else:

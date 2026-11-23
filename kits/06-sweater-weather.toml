@@ -1,0 +1,53 @@
+# Sweater Weather (The Neighbourhood, 2012). Sons escolhidos pelo nome e pelo que se sabe da gravação, sem ouvir no módulo:
+# ajustar de ouvido e anotar aqui o que mudou.
+
+nome = "Sweater Weather"
+descricao = "Indie calmo e um pouco lo-fi: bumbo redondo, caixa seca e baixa, aro marcado no verso."
+user = 6
+reverb = true
+referencias = ["Sweater Weather (The Neighbourhood, 2012)"]
+
+[pads.kick]
+som = 8      # POPKICK3
+volume = 29
+
+[pads.caixa]
+som = 46      # POPSN4
+volume = 25
+
+[pads.aro]
+som = 42      # SRIMC4
+volume = 26
+
+[pads.tom1]
+som = 107      # TOMPOP4
+volume = 24
+pan = -2
+
+[pads.tom2]
+som = 108      # TOMPOP5
+volume = 24
+pan = 1
+
+[pads.tom3]
+som = 109      # TOMPOP6
+volume = 25
+pan = 4
+
+[pads.chimbal]
+som = 80      # CHHPOP2
+volume = 22
+pan = -4
+
+[pads.ataque]
+som = 144      # CRASHPOP2
+volume = 22
+pan = -5
+
+[pads.conducao]
+som = 133      # RIDEJZ1
+volume = 21
+pan = 5
+
+[computador]
+kit = "DRSKit 2.1 (DrumGizmo)"

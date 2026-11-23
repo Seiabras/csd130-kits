@@ -1,0 +1,53 @@
+# Where Is My Mind? (Pixies, 1988). Sons escolhidos pelo nome e pelo que se sabe da gravação, sem ouvir no módulo:
+# ajustar de ouvido e anotar aqui o que mudou.
+
+nome = "Where Is My Mind?"
+descricao = "Rock alternativo solto: caixa com sala, chimbal meio aberto, ataque de som escuro."
+user = 8
+reverb = true
+referencias = ["Where Is My Mind? (Pixies, 1988)"]
+
+[pads.kick]
+som = 4      # JAZZBD2
+volume = 29
+
+[pads.caixa]
+som = 36      # TRDSN1
+volume = 28
+
+[pads.aro]
+som = 41      # SRSTD
+volume = 22
+
+[pads.tom1]
+som = 96      # TOM4
+volume = 26
+pan = -2
+
+[pads.tom2]
+som = 97      # TOM5
+volume = 26
+pan = 1
+
+[pads.tom3]
+som = 101      # TOM9
+volume = 27
+pan = 4
+
+[pads.chimbal]
+som = 67      # LOOSHH2
+volume = 23
+pan = -4
+
+[pads.ataque]
+som = 121      # LTCRSH2
+volume = 24
+pan = -5
+
+[pads.conducao]
+som = 134      # RIDEJZ2
+volume = 22
+pan = 5
+
+[computador]
+kit = "DRSKit 2.1 (DrumGizmo)"

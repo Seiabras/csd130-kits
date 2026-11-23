@@ -1,0 +1,56 @@
+# Boys Don't Cry (The Cure, 1979). Sons escolhidos pelo nome e pelo que se sabe da gravação, sem ouvir no módulo:
+# ajustar de ouvido e anotar aqui o que mudou.
+
+nome = "Boys Don't Cry"
+descricao = "Pós-punk seco e rápido: kit pequeno, caixa apertada e aguda, chimbal fechado e sem reverb."
+user = 4
+reverb = false
+referencias = ["Boys Don't Cry (The Cure, 1979)"]
+
+[pads.kick]
+som = 2      # KICK2
+volume = 28
+
+[pads.caixa]
+som = 30      # TITESN1
+volume = 28
+afinacao = 1
+
+[pads.aro]
+som = 28      # SNRIM
+volume = 22
+
+[pads.tom1]
+som = 93      # TOM1
+volume = 25
+pan = -2
+afinacao = 1
+
+[pads.tom2]
+som = 99      # TOM7
+volume = 25
+pan = 1
+afinacao = 1
+
+[pads.tom3]
+som = 100      # TOM8
+volume = 26
+pan = 4
+
+[pads.chimbal]
+som = 58      # CHH1
+volume = 24
+pan = -4
+
+[pads.ataque]
+som = 114      # CRASH1
+volume = 23
+pan = -5
+
+[pads.conducao]
+som = 136      # RIDE1
+volume = 21
+pan = 5
+
+[computador]
+kit = "DRSKit 2.1 (DrumGizmo)"

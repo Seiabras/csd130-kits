@@ -1,0 +1,58 @@
+# Do I Wanna Know? (Arctic Monkeys, 2013). Sons escolhidos pelo nome e pelo que se sabe da gravação, sem ouvir no módulo:
+# ajustar de ouvido e anotar aqui o que mudou.
+
+nome = "Do I Wanna Know?"
+descricao = "Batida lenta e pesada: bumbo gordo e próximo, caixa grossa, palmas no aro, quase sem pratos."
+user = 7
+reverb = true
+referencias = ["Do I Wanna Know? (Arctic Monkeys, 2013)"]
+
+[pads.kick]
+som = 13      # ACKICK
+volume = 31
+afinacao = -1
+
+[pads.caixa]
+som = 38      # SNCOMBO4
+volume = 29
+afinacao = -1
+
+[pads.aro]
+som = 169      # CLAP1
+volume = 29
+
+[pads.tom1]
+som = 95      # TOM3
+volume = 26
+pan = -2
+afinacao = -1
+
+[pads.tom2]
+som = 98      # TOM6
+volume = 26
+pan = 1
+afinacao = -1
+
+[pads.tom3]
+som = 103      # TOMMSTD
+volume = 27
+pan = 4
+afinacao = -1
+
+[pads.chimbal]
+som = 61      # CHH4
+volume = 20
+pan = -4
+
+[pads.ataque]
+som = 120      # LTCRSH1
+volume = 23
+pan = -5
+
+[pads.conducao]
+som = 135      # RIDESTD
+volume = 20
+pan = 5
+
+[computador]
+kit = "DRSKit 2.1 (DrumGizmo)"
